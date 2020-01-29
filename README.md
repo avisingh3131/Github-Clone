@@ -16,3 +16,4 @@ step3:- run "npm start" (backend will run on 3000)
 step1:- click on "create user".
 step2:- enter username, email, password (no validation) and submit.
 step3:- now enter user name or email and password to login.
+(Note:- forgot password and Term use will not work now.)
