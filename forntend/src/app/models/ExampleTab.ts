@@ -1,6 +1,7 @@
+import { ReplaySubject } from "rxjs";
 
 export interface ExampleTab {
   label: string;
-  content: any[];
+  content: ReplaySubject<any[]>;
 }
 

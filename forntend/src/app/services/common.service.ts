@@ -14,8 +14,6 @@ const gitRepoUrl = 'https://github.com';
 @Injectable()
 export class CommonService {
 
-  showUserList = false;
-
   allUserList: any[] = [];
 
   constructor(private http: HttpClient) { }
@@ -23,8 +21,8 @@ export class CommonService {
     return this.http.get<any[]>(`${gitUserUrl}`);
   }
 
-  getUserRepoByUsername(name) {
-    return this.http.get<any>(`${gitRepoUrl}/${name}`);
+  getAllRepos(url) {
+    return this.http.get<any>(`${url}`);
   }
   createNewUser(data) {
     const body = JSON.stringify(data);

@@ -53,7 +53,7 @@ import {CommonService } from './services/common.service';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { NoteListComponent } from './components/note-list/note-list.component';
+import { UserListComponent } from './components/user-list/user-list.component';
 import { LoginComponent } from './components/login/login.component';
 import { PopupComponent } from './components/popup/popup.component';
 
@@ -63,7 +63,7 @@ import { PopupComponent } from './components/popup/popup.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    NoteListComponent,
+    UserListComponent,
     LoginComponent,
     PopupComponent
   ],

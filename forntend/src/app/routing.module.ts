@@ -9,8 +9,6 @@ import { LoginComponent } from './components/login/login.component';
 const routes: Routes = [
    {path: '', component: LoginComponent},
    {path: 'home', component: NavbarComponent}
-  // {path:'approve-list',component:ApproveListComponent},
-  // {path:'reject-list',component:RejectListComponent}
 ];
 @NgModule({
   exports: [RouterModule],
